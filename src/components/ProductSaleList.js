@@ -8,9 +8,9 @@ const ProductSaleList = () => {
                 <h2>Product Sell</h2>
             </div>
             <div className='main'>
-                <div class="form-group has-search">
-                    <span class="bi bi-search form-control-feedback"></span>
-                    <input type="text" class="form-control" placeholder="Search"/>
+                <div className="form-group has-search">
+                    <span className="bi bi-search form-control-feedback"></span>
+                    <input type="text" className="form-control" placeholder="Search"/>
                 </div>
             </div>
             <div className='dropdown-box'>
@@ -27,7 +27,7 @@ const ProductSaleList = () => {
             </tr>      
             <tr>
                 <td className='d-flex'>
-                    <img src={require('../images/img-1.png')} className="img-fluid" alt="" />
+                    <img src={require('../images/img-1.png')} className="img-fluid"/>
                     <div>
                         <span style={{fontWeight:"bold"}}>Abstract 3D</span>
                         <p style={{fontWeight:"400"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, hic.</p>
@@ -39,7 +39,7 @@ const ProductSaleList = () => {
             </tr>        
             <tr>
                 <td className='d-flex'>
-                    <img src={require('../images/img-2.jpg')} className="img-fluid" alt="" />
+                    <img src={require('../images/img-2.jpg')} className="img-fluid"/>
                     <div>
                         <span style={{fontWeight:"bold"}}>Sarphens Illustration</span>
                         <p style={{fontWeight:"400"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, hic.</p>

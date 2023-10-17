@@ -10,9 +10,9 @@ const ProductInformation = () => {
       <div className='main-search d-flex'>
         <h2>Hello Shahrukh {String.fromCodePoint('128075')}</h2>
         <div className='main ms-auto'>
-            <div class="form-group has-search">
-                <span class="bi bi-search form-control-feedback"></span>
-                <input type="text" class="form-control" placeholder="Search"/>
+            <div className="form-group has-search">
+                <span className="bi bi-search form-control-feedback"></span>
+                <input type="text" className="form-control" placeholder="Search"/>
             </div>
         </div>
       </div>
